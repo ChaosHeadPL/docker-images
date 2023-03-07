@@ -1,4 +1,4 @@
-! Variables
+# Variables
 
 - MONGODB_USERNAME=my_user
 - MONGODB_PASSWORD=password123
@@ -7,20 +7,15 @@
 - ALLOW_EMPTY_PASSWORD=yes
 - MONGODB_ENABLE_JOURNAL=true
 
-
-! Dockerfile
-
-! docker-compose
+# Dockerfile
 
 Run:
 
-```
+```bash
 docker run --name mongodb bitnami/mongodb:latest
 ```
 
-
-
-
+# docker-compose
 
 ```yaml
 version: '3'
